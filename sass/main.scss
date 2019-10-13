@@ -1,5 +1,55 @@
+@import '_vars' ;
+
+body {
+    background-color: seashell;
+    font-family: 'Poppins', sans-serif;
+}
+
 main {
     width: 90%;
+    // text-align: center;
+    // margin: 0 auto;
+    display: block;
+}
+
+
+h1 {
+    font-size: 2.5em;
+    color: $col-2;
+
     text-align: center;
+}
+
+h2 {
+    font-size: 1.9em;
+    color: $col-2;
+
+    text-align: center;
+}
+
+h3 {
+    font-size: 1.2em;
+    color: $col-1;
+
+    text-align: center;
+}
+
+
+.indiv-mask img {
+    width: 50%;
+    display: block;
     margin: 0 auto;
 }
+
+.indiv-mask h4 {
+    font-size: 1.4 em;
+    color: $mask-name;
+    text-align: center;
+}
+
+.indiv-mask p {
+   text-align: center;
+   color: $mask-info;
+   letter-spacing: 1.5px;
+}
+
