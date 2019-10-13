@@ -1,17 +1,19 @@
-# Node and Express for HW1
+# Authoring HMK 1
 
-You can use this example file as your starting point, if you're having trouble with the build files in class.
+##Web App
 
-Clone the project wherever you like. CD into the project, and NPM install
+Simple responsive page deployed to Heroku about face masks!
 
-Run NPM start, or node app - either way, you should get an instance running on localhost:3000
+### Used
+HTML5 
+CSS3
+SASS
+NODE
+EXPRESS
+HEROKU
 
-To compile the SASS you can write **sass --watch sass:public/css --style compressed** in a terminal window. That will compile all of your sass to the public/css folder
+### Credits 
 
-Remember - you don't have to include the /public part of your static asset resource paths. css/main.css or images/name_of_image is fine.
-
-We're just sending index.html back via the main route, so build your project in that file as before and you should be good to go!
-
-Remember to add the node.js buildpack on Heroku, and include the live Heroku link with your submission.
+All mask info and images belong to Oh!K 
 
 Cheers!
